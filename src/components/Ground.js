@@ -41,87 +41,89 @@ function Ground(props) {
 
     return (
         <>
-            <Expression value={expression}/>
+            <Expression value={expression} style={{letterSpacing: 2}}/>
             <div className={"pure-g"}>
-                <button className={"pure-u-1-24 pure-button"}
+                <button className={"pure-u-1-8 pure-u-sm-1-12 pure-u-lg-1-24 pure-button"}
                         onClick={(event) => addNewValue("(")}>(
                 </button>
 
-                <button className={"pure-u-1-24 pure-button"}
+                <button className={"pure-u-1-8 pure-u-sm-1-12 pure-u-lg-1-24 pure-button"}
                         onClick={(event) => addNewValue(")")}>)
                 </button>
 
-                <button className={"pure-u-1-24 pure-button"}
+                <button className={"pure-u-1-8 pure-u-sm-1-12 pure-u-lg-1-24 pure-button"}
                         onClick={(event) => addNewValue("**")}>^
                 </button>
             </div>
 
             <div className={"pure-g"}>
-                <button className={"pure-u-1-24 pure-button"}
+                <button className={"pure-u-1-8 pure-u-sm-1-12 pure-u-lg-1-24 pure-button"}
                         onClick={(event) => addNewValue("0")}>0
                 </button>
 
-                <button className={"pure-u-1-24 pure-button"}
+                <button className={"pure-u-1-8 pure-u-sm-1-12 pure-u-lg-1-24 pure-button"}
                         onClick={(event) => addNewValue("1")}>1
                 </button>
 
-                <button className={"pure-u-1-24 pure-button"}
+                <button className={"pure-u-1-8 pure-u-sm-1-12 pure-u-lg-1-24 pure-button"}
                         onClick={(event) => addNewValue("2")}>2
                 </button>
 
-                <button className={"pure-u-1-24 pure-button"}
+                <button className={"pure-u-1-8 pure-u-sm-1-12 pure-u-lg-1-24 pure-button"}
                         onClick={(event) => addNewValue("+")}>+
                 </button>
             </div>
 
             <div className={"pure-g"}>
-                <button className={"pure-u-1-24 pure-button"}
+                <button className={"pure-u-1-8 pure-u-sm-1-12 pure-u-lg-1-24 pure-button"}
                         onClick={(event) => addNewValue("3")}>3
                 </button>
 
-                <button className={"pure-u-1-24 pure-button"}
+                <button className={"pure-u-1-8 pure-u-sm-1-12 pure-u-lg-1-24 pure-button"}
                         onClick={(event) => addNewValue("4")}>4
                 </button>
 
-                <button className={"pure-u-1-24 pure-button"}
+                <button className={"pure-u-1-8 pure-u-sm-1-12 pure-u-lg-1-24 pure-button"}
                         onClick={(event) => addNewValue("5")}>5
                 </button>
 
-                <button className={"pure-u-1-24 pure-button"}
+                <button className={"pure-u-1-8 pure-u-sm-1-12 pure-u-lg-1-24 pure-button"}
                         onClick={(event) => addNewValue("-")}>-
                 </button>
             </div>
 
             <div className={"pure-g"}>
-                <button className={"pure-u-1-24 pure-button"}
+                <button className={"pure-u-1-8 pure-u-sm-1-12 pure-u-lg-1-24 pure-button"}
                         onClick={(event) => addNewValue("6")}>6
                 </button>
 
-                <button className={"pure-u-1-24 pure-button"}
+                <button className={"pure-u-1-8 pure-u-sm-1-12 pure-u-lg-1-24 pure-button"}
                         onClick={(event) => addNewValue("7")}>7
                 </button>
 
-                <button className={"pure-u-1-24 pure-button"}
+                <button className={"pure-u-1-8 pure-u-sm-1-12 pure-u-lg-1-24 pure-button"}
                         onClick={(event) => addNewValue("8")}>8
                 </button>
 
-                <button className={"pure-u-1-24 pure-button"}
+                <button className={"pure-u-1-8 pure-u-sm-1-12 pure-u-lg-1-24 pure-button"}
                         onClick={(event) => addNewValue("*")}>*
                 </button>
             </div>
 
             <div className={"pure-g"}>
-                <button className={"pure-u-1-24 pure-button"} onClick={() => reset()}>Esc</button>
+                <button className={"pure-u-1-8 pure-u-sm-1-12 pure-u-lg-1-24  pure-button"}
+                        onClick={() => reset()}>Esc
+                </button>
 
-                <button className={"pure-u-1-24 pure-button"}
+                <button className={"pure-u-1-8 pure-u-sm-1-12 pure-u-lg-1-24 pure-button"}
                         onClick={(event) => addNewValue("9")}>9
                 </button>
 
-                <button className={"pure-u-1-24 pure-button"}
+                <button className={"pure-u-1-8 pure-u-sm-1-12 pure-u-lg-1-24 pure-button"}
                         onClick={(event) => addNewValue("/")}>/
                 </button>
 
-                <button className={"pure-u-1-24 pure-button pure-button-primary"}
+                <button className={"pure-u-1-8 pure-u-sm-1-12 pure-u-lg-1-24 pure-button pure-button-primary"}
                         onClick={() => calculate()}> =
                 </button>
             </div>
