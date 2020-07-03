@@ -44,11 +44,11 @@ function Ground(props) {
             <Expression value={expression}/>
             <div className={"pure-g"}>
                 <button className={"pure-u-1-24 pure-button"}
-                        onClick={(event) => addNewValue(event.target.textContent)}>(
+                        onClick={(event) => addNewValue("(")}>(
                 </button>
 
                 <button className={"pure-u-1-24 pure-button"}
-                        onClick={(event) => addNewValue(event.target.textContent)}>)
+                        onClick={(event) => addNewValue(")")}>)
                 </button>
 
                 <button className={"pure-u-1-24 pure-button"}
@@ -58,55 +58,55 @@ function Ground(props) {
 
             <div className={"pure-g"}>
                 <button className={"pure-u-1-24 pure-button"}
-                        onClick={(event) => addNewValue(event.target.textContent)}>0
+                        onClick={(event) => addNewValue("0")}>0
                 </button>
 
                 <button className={"pure-u-1-24 pure-button"}
-                        onClick={(event) => addNewValue(event.target.textContent)}>1
+                        onClick={(event) => addNewValue("1")}>1
                 </button>
 
                 <button className={"pure-u-1-24 pure-button"}
-                        onClick={(event) => addNewValue(event.target.textContent)}>2
+                        onClick={(event) => addNewValue("2")}>2
                 </button>
 
                 <button className={"pure-u-1-24 pure-button"}
-                        onClick={(event) => addNewValue(event.target.textContent)}>+
-                </button>
-            </div>
-
-            <div className={"pure-g"}>
-                <button className={"pure-u-1-24 pure-button"}
-                        onClick={(event) => addNewValue(event.target.textContent)}>3
-                </button>
-
-                <button className={"pure-u-1-24 pure-button"}
-                        onClick={(event) => addNewValue(event.target.textContent)}>4
-                </button>
-
-                <button className={"pure-u-1-24 pure-button"}
-                        onClick={(event) => addNewValue(event.target.textContent)}>5
-                </button>
-
-                <button className={"pure-u-1-24 pure-button"}
-                        onClick={(event) => addNewValue(event.target.textContent)}>-
+                        onClick={(event) => addNewValue("+")}>+
                 </button>
             </div>
 
             <div className={"pure-g"}>
                 <button className={"pure-u-1-24 pure-button"}
-                        onClick={(event) => addNewValue(event.target.textContent)}>6
+                        onClick={(event) => addNewValue("3")}>3
                 </button>
 
                 <button className={"pure-u-1-24 pure-button"}
-                        onClick={(event) => addNewValue(event.target.textContent)}>7
+                        onClick={(event) => addNewValue("4")}>4
                 </button>
 
                 <button className={"pure-u-1-24 pure-button"}
-                        onClick={(event) => addNewValue(event.target.textContent)}>8
+                        onClick={(event) => addNewValue("5")}>5
                 </button>
 
                 <button className={"pure-u-1-24 pure-button"}
-                        onClick={(event) => addNewValue(event.target.textContent)}>*
+                        onClick={(event) => addNewValue("-")}>-
+                </button>
+            </div>
+
+            <div className={"pure-g"}>
+                <button className={"pure-u-1-24 pure-button"}
+                        onClick={(event) => addNewValue("6")}>6
+                </button>
+
+                <button className={"pure-u-1-24 pure-button"}
+                        onClick={(event) => addNewValue("7")}>7
+                </button>
+
+                <button className={"pure-u-1-24 pure-button"}
+                        onClick={(event) => addNewValue("8")}>8
+                </button>
+
+                <button className={"pure-u-1-24 pure-button"}
+                        onClick={(event) => addNewValue("*")}>*
                 </button>
             </div>
 
@@ -114,11 +114,11 @@ function Ground(props) {
                 <button className={"pure-u-1-24 pure-button"} onClick={() => reset()}>Esc</button>
 
                 <button className={"pure-u-1-24 pure-button"}
-                        onClick={(event) => addNewValue(event.target.textContent)}>9
+                        onClick={(event) => addNewValue("9")}>9
                 </button>
 
                 <button className={"pure-u-1-24 pure-button"}
-                        onClick={(event) => addNewValue(event.target.textContent)}>/
+                        onClick={(event) => addNewValue("/")}>/
                 </button>
 
                 <button className={"pure-u-1-24 pure-button pure-button-primary"}

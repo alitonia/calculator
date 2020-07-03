@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Ground from "./Calculator/Ground";
+import Ground from "./components/Ground";
 
 function App() {
   return (
